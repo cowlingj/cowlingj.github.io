@@ -1,0 +1,20 @@
+body {
+  grid-template-rows: max-content 1fr;
+  grid-template-columns: max-content 100vw;
+  grid-template-areas:
+    "header header"
+    "nav main"
+  ;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  grid-area: main;
+}
+
+header {
+  grid-area: header;
+}

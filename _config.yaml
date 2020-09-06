@@ -1,3 +1,4 @@
+looking_for_work: false
 defaults:
   - scope:
       path: ""

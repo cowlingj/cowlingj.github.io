@@ -4,11 +4,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>{% if page.title != null %} {{ page.title }} | {% endif %} Hi, I'm @cowlingj</title>
+  <link rel="stylesheet" href="/assets/utils.css">
+  <link rel="stylesheet" href="/assets/default.css">
+  <script src="/assets/nav.js" async defer></script>
+  {% include header/style.html %}
+  {% include nav/style.html %}
+  {% if page.head %}
+    {% include {{ page.head }} %}
+  {% endif %}
 </head>
-<body>
+<body class="grid w-screen h-screen m-0" >
+  {% include header/index.html %}
+  {% include nav/index.html %}
   {{ content }}
 </body>
 </html>
