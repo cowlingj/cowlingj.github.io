@@ -7,7 +7,8 @@ COPY Gemfile.lock /app/Gemfile.lock
 RUN bundle config set deployment true
 RUN bundle install
 
-COPY . /app
+COPY ./src /app/src
+COPY _config.yaml /app
 
 EXPOSE 3000
 

@@ -3,7 +3,7 @@ body {
   grid-template-columns: max-content 100vw;
   grid-template-areas:
     "header header"
-    "nav main"
+    "nav body"
   ;
 }
 
@@ -11,8 +11,8 @@ nav {
   grid-area: nav;
 }
 
-main {
-  grid-area: main;
+.body {
+  grid-area: body;
 }
 
 header {

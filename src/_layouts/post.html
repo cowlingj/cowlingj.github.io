@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="body">
+  <main>
+    <h1>{{page.title}}</h1>
+    <article>
+      {{ content }}
+    </article>
+  </main>
+  <footer>
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}">Prev: {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>
+    {% endif %}
+  </footer>
+</div>
+  

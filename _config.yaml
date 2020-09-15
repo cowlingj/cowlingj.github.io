@@ -1,3 +1,5 @@
+source: "."
+destination: "./dist"
 looking_for_work: false
 defaults:
   - scope:
@@ -5,3 +7,8 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

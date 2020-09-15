@@ -1,4 +1,6 @@
 ---
+tags:
+  - javascript
 ---
 
 In this post, I aim to cover several gotcha's,
