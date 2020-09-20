@@ -18,6 +18,14 @@
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
 .space-around {
   justify-content: space-around;
 }
@@ -86,4 +94,12 @@
 
 .overflow-none {
   overflow: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.mono {
+  font-family: monospace;
 }

@@ -1,3 +1,28 @@
 .splash-text {
   font-size: 10vh;
+  margin-right: 1rem;
+  color: var(--root-highlight-color);
+}
+
+.shadow {
+  padding: 1em;
+  border-radius: 1em;
+  margin: 2em;
+  box-shadow: 1em 1em 3em var(--root-shadow-color),
+              -1em -1em 3em var(--root-highlight-color);
+}
+
+.cta {
+  flex-basis: 100%;
+  color: white;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+/* 
+@media screen and (min-width: 768px) {
+  .cta {
+    flex-basis: 0;
+  }
 }

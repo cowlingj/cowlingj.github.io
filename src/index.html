@@ -3,18 +3,18 @@ head:  pages/index/head.html
 ---
 
 <main class="body flex flex-col space-around overflow-none">
-  <p class="uppercase text-end splash-text overflow-none">
+  <p class="uppercase text-end splash-text overflow-none mono">
     Hi,<br/>
-    I'm<br/>
-    Jonathan
+    I'm&nbsp;<br/>
+    Jonathan&nbsp;
   </p>
-  <section class="flex space-around align-strech">
-    <a class="flex align-center" href="https://twitter.com/_cowlingj_">Twitter</a>
-    <a class="flex align-center" href="https://github.com/cowlingj">GitHub</a>
+  <section class="flex flex-wrap space-around align-strech">
+    <a class="grow align-center shadow flex space-around cta cta-twitter" href="https://twitter.com/_cowlingj_">Twitter</a>
+    <a class="grow align-center shadow flex space-around cta cta-github" href="https://github.com/cowlingj">GitHub</a>
     {% if site.looking_for_work %}
-      <a class="flex align-center" href="#">Hire Me</a>
+      <a class="grow align-center shadow flex space-around cta cta-work" href="#">Hire Me</a>
     {% else %}
-      <a class="flex align-center" href="#">I'm not looking<br/>for work, thanks</a>
+      <a class="grow align-center shadow flex space-around cta cta-work" href="#">I'm not looking<br/>for work, thanks</a>
     {% endif %}
   </section>
 </main>

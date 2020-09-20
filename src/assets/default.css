@@ -5,6 +5,8 @@ body {
     "header header"
     "nav body"
   ;
+  overflow: hidden;
+  background-color: var(--root-color);
 }
 
 nav {
