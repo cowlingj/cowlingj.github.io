@@ -8,11 +8,10 @@ RUN bundle config set deployment true
 RUN bundle install
 
 COPY ./src /app/src
-COPY _config.yaml /app
 
 EXPOSE 3000
 
 ENTRYPOINT [ "bundle" ]
 
-CMD [ "exec", "jekyll", "serve", "--drafts", "-H", "0.0.0.0", "-P", "3000" ]
+CMD [ "exec", "jekyll", "serve", "--config", "/app/src/_config.yaml", "--drafts", "-H", "0.0.0.0", "-P", "3000" ]
 
