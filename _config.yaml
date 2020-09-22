@@ -1,4 +1,4 @@
-source: "./src"
+source: "."
 destination: "./dist"
 looking_for_work: false
 defaults:
