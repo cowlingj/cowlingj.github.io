@@ -103,3 +103,18 @@
 .mono {
   font-family: monospace;
 }
+
+.shadow {
+  padding: 1em;
+  border-radius: 1em;
+  margin: 2em;
+  box-shadow: 1em 1em 1em var(--root-shadow-color),
+              -1em -1em 1em var(--root-highlight-color);
+}
+
+.shadow-inset {
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: -0.5em -0.5em 1em var(--root-highlight-color) inset, 
+              0.5em 0.5em 1em var(--root-shadow-color) inset;
+}

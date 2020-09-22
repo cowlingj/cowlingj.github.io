@@ -4,14 +4,6 @@
   color: var(--root-highlight-color);
 }
 
-.shadow {
-  padding: 1em;
-  border-radius: 1em;
-  margin: 2em;
-  box-shadow: 1em 1em 3em var(--root-shadow-color),
-              -1em -1em 3em var(--root-highlight-color);
-}
-
 .cta {
   flex-basis: 100%;
   color: white;
