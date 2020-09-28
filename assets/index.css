@@ -12,7 +12,30 @@
   font-size: 1.2rem;
 }
 
-/* 
+.twitter-outer {
+  background: linear-gradient(to bottom right, var(--twitter-primary-color), var(--twitter-shadow-color));
+}
+
+.twitter-inner {
+  background: linear-gradient(to top left, var(--twitter-primary-color), var(--twitter-shadow-color));
+}
+
+.github-outer {
+  background: linear-gradient(to bottom right, var(--github-light-color), var(--github-primary-color));
+}
+
+.github-inner {
+  background: linear-gradient(to top left, var(--github-light-color), var(--github-primary-color));
+}
+
+.hire-outer {
+  background: linear-gradient(to bottom right, var(--hire-primary-color), var(--hire-shadow-color));
+}
+
+.hire-inner {
+  background: linear-gradient(to top left, var(--hire-primary-color), var(--hire-shadow-color));
+}
+
 @media screen and (min-width: 768px) {
   .cta {
     flex-basis: 0;

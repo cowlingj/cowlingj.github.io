@@ -9,12 +9,31 @@ head:  pages/index/head.html
     Jonathan&nbsp;
   </p>
   <section class="flex flex-wrap space-around align-strech">
-    <a class="grow align-center shadow flex space-around cta cta-twitter" href="https://twitter.com/_cowlingj_">Twitter</a>
-    <a class="grow align-center shadow flex space-around cta cta-github" href="https://github.com/cowlingj">GitHub</a>
+    <a class="grow align-strech shadow round-l flex space-around cta h-l" href="https://twitter.com/_cowlingj_">
+      <div class="grow align-strech round-l flex space-around cta twitter-outer m-0_5">
+        <div class="twitter-inner round-l m-0_5 grow align-center flex space-around">
+          Twitter
+        </div>
+      </div>
+    </a>
+    <a class="grow align-strech shadow round-l flex space-around cta h-l" href="https://github.com/cowlingj">
+      <div class="grow align-strech round-l flex space-around cta github-outer m-0_5">
+        <div class="github-inner round-l m-0_5 grow align-center flex space-around">
+          GitHub
+        </div>
+      </div>
+    </a>
     {% if site.looking_for_work %}
-      <a class="grow align-center shadow flex space-around cta cta-work" href="#">Hire Me</a>
-    {% else %}
-      <a class="grow align-center shadow flex space-around cta cta-work" href="#">I'm not looking<br/>for work, thanks</a>
+    <a
+      class="grow align-strech shadow round-l flex space-around cta h-l"
+      href="#"
+    >
+      <div class="grow align-strech round-l flex space-around cta hire-outer m-0_5">
+        <div class="hire-inner round-l m-0_5 grow align-center flex space-around">
+           Hire Me
+        </div>
+      </div>
+    </a>
     {% endif %}
   </section>
 </main>

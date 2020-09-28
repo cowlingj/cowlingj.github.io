@@ -1,6 +1,12 @@
 :root {
   --nav-color: lightgray;
   --root-color: #e4ddcc;
-  --root-shadow-color: #8f8a79;
-  --root-highlight-color: #fffff0;
+  --root-shadow-color: #c2b897;
+  --root-highlight-color: #f7f3ea;
+  --twitter-primary-color: #1DA1F2;
+  --twitter-shadow-color: #1b73aa;
+  --github-light-color: #353d46;
+  --github-primary-color: #24292e;
+  --hire-primary-color: #8ea2af;
+  --hire-shadow-color: #666c70;
 }
