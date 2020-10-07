@@ -1,13 +1,16 @@
 function openNav() {
   document.querySelector('nav').classList.remove('hidden');
+  document.querySelector('.nav').classList.remove('hidden');
 }
 
 function toggleNav() {
   document.querySelector('nav').classList.toggle('hidden');
+  document.querySelector('.nav').classList.toggle('hidden');
 }
 
 function closeNav() {
   document.querySelector('nav').classList.add('hidden');
+  document.querySelector('.nav').classList.add('hidden');
 }
 
 Array.from(document.querySelectorAll('.open-nav')).forEach(el => {
